@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{903B2FA7-6305-4690-A0E6-2F00AF3B04F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromaTaskbar.Core", "src\ChromaTaskbar.Core\ChromaTaskbar.Core.csproj", "{32374CE5-917B-4D0F-8E0B-CD40215E2BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromaTaskbar", "src\ChromaTaskbar\ChromaTaskbar.csproj", "{38A7A3FE-FDDD-48C7-9C56-9B8D52A1719A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{308AFDDE-6D1F-47D3-9542-A6D1ADFB41F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromaTaskbar.Tests", "tests\ChromaTaskbar.Tests\ChromaTaskbar.Tests.csproj", "{46B28056-8F58-4C9E-82B4-053C827996A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{4F14E1F7-E8CF-4B50-B2A0-65B3CC2DE52D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromaTaskbar.Probe", "tools\ChromaTaskbar.Probe\ChromaTaskbar.Probe.csproj", "{E1E082FC-4668-4ED5-9A22-3D652734B6CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32374CE5-917B-4D0F-8E0B-CD40215E2BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32374CE5-917B-4D0F-8E0B-CD40215E2BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32374CE5-917B-4D0F-8E0B-CD40215E2BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32374CE5-917B-4D0F-8E0B-CD40215E2BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A7A3FE-FDDD-48C7-9C56-9B8D52A1719A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A7A3FE-FDDD-48C7-9C56-9B8D52A1719A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A7A3FE-FDDD-48C7-9C56-9B8D52A1719A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A7A3FE-FDDD-48C7-9C56-9B8D52A1719A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B28056-8F58-4C9E-82B4-053C827996A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B28056-8F58-4C9E-82B4-053C827996A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B28056-8F58-4C9E-82B4-053C827996A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B28056-8F58-4C9E-82B4-053C827996A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1E082FC-4668-4ED5-9A22-3D652734B6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E082FC-4668-4ED5-9A22-3D652734B6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E082FC-4668-4ED5-9A22-3D652734B6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E082FC-4668-4ED5-9A22-3D652734B6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32374CE5-917B-4D0F-8E0B-CD40215E2BEF} = {903B2FA7-6305-4690-A0E6-2F00AF3B04F0}
+		{38A7A3FE-FDDD-48C7-9C56-9B8D52A1719A} = {903B2FA7-6305-4690-A0E6-2F00AF3B04F0}
+		{46B28056-8F58-4C9E-82B4-053C827996A6} = {308AFDDE-6D1F-47D3-9542-A6D1ADFB41F7}
+		{E1E082FC-4668-4ED5-9A22-3D652734B6CB} = {4F14E1F7-E8CF-4B50-B2A0-65B3CC2DE52D}
+	EndGlobalSection
+EndGlobal

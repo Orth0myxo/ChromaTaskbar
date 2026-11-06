@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ChromaTaskbar.Core\ChromaTaskbar.Core.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ChromaTaskbar.Probe</RootNamespace>
+    <AssemblyName>ChromaTaskbar.Probe</AssemblyName>
+  </PropertyGroup>
+
+</Project>
