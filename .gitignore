@@ -25,10 +25,6 @@ secrets.json
 *.DDF
 ~*.DDF
 
-# Generated release staging, installer tests, and intermediate packages
-/release/*
-!/release/checkpoints/
-/release/checkpoints/*
-!/release/checkpoints/ChromaTaskbar-v1.0.0-tray-stable-source-final2.zip
-!/release/ChromaTaskbar-Setup.exe
-!/release/ChromaTaskbar-Portable.zip
+# Local release builds, checkpoints, staging, and installer tests
+/release/
+
